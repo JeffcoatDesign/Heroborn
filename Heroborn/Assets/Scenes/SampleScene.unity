@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 57588468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Raised platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 332884528}
   - component: {fileID: 332884527}
   - component: {fileID: 332884526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ramp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 403986320}
   - component: {fileID: 403986319}
   - component: {fileID: 403986318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 561679043}
   - component: {fileID: 561679042}
   - component: {fileID: 561679041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 567322863}
   - component: {fileID: 567322862}
   - component: {fileID: 567322861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 603754599}
   - component: {fileID: 603754598}
   - component: {fileID: 603754597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725628601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,6 +774,53 @@ Transform:
   - {fileID: 1392479758}
   m_Father: {fileID: 1335806265}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &904082655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 904082657}
+  - component: {fileID: 904082656}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &904082656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904082655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9e268e216c30c47a64185007841190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  labelText: Collect all 4 items and win your freedom!
+  maxItems: 1
+  showWinScreen: 0
+--- !u!4 &904082657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904082655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.85644376, y: -0.93048835, z: -7.2199554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -885,7 +932,7 @@ GameObject:
   - component: {fileID: 1288559164}
   - component: {fileID: 1288559163}
   - component: {fileID: 1288559162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ramp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,6 +1029,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1614652145541381196, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208074331858514748, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4189621160826194463, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1026,6 +1081,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6886261287944675082, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027553395233234755, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681724267174490885, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8080555826072398423, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
 --- !u!4 &1289905378 stripped
@@ -1042,7 +1113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1335806265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1078,6 +1149,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1335806265}
     m_Modifications:
+    - target: {fileID: 1614652145541381196, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208074331858514748, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4189621160826194463, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1114,6 +1193,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6886261287944675082, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027553395233234755, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681724267174490885, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8080555826072398423, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
 --- !u!4 &1360469341 stripped
@@ -1133,7 +1228,7 @@ GameObject:
   - component: {fileID: 1392479761}
   - component: {fileID: 1392479760}
   - component: {fileID: 1392479759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1230,7 +1325,7 @@ GameObject:
   - component: {fileID: 1455952309}
   - component: {fileID: 1455952308}
   - component: {fileID: 1455952307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1326,6 +1421,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1614652145541381196, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208074331858514748, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4189621160826194463, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1370,6 +1473,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6886261287944675082, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027553395233234755, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681724267174490885, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8080555826072398423, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
 --- !u!4 &1698192522 stripped
@@ -1389,7 +1508,7 @@ GameObject:
   - component: {fileID: 1807097815}
   - component: {fileID: 1807097814}
   - component: {fileID: 1807097813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ramp (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1487,7 +1606,7 @@ GameObject:
   - component: {fileID: 2051238139}
   - component: {fileID: 2051238138}
   - component: {fileID: 2051238137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1694,6 +1813,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7989523867492923057, guid: c8cb2e055fc225a4893699267d1dce97, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 7201679349717764803, guid: 5f6c687abf527494194a044e69e3c57a, type: 3}
+    - target: {fileID: 7989523867492923057, guid: c8cb2e055fc225a4893699267d1dce97, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7989523867492923058, guid: c8cb2e055fc225a4893699267d1dce97, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1755,6 +1882,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1614652145541381196, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208074331858514748, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4189621160826194463, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1798,6 +1933,22 @@ PrefabInstance:
     - target: {fileID: 4189621160826194463, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886261287944675082, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027553395233234755, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681724267174490885, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8080555826072398423, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f60ff6a218bc3a4da88d44bb2e51f8d, type: 3}
